@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shivangi\\source\\repos\\HelloWorld\\HelloWorld.web\\HelloWorld.web.csproj": {}
+    "C:\\Users\\shivangi\\source\\dotnetLearning\\HelloWorld\\HelloWorld.web\\HelloWorld.web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shivangi\\source\\repos\\HelloWorld\\HelloWorld.web\\HelloWorld.web.csproj": {
+    "C:\\Users\\shivangi\\source\\dotnetLearning\\HelloWorld\\HelloWorld.web\\HelloWorld.web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shivangi\\source\\repos\\HelloWorld\\HelloWorld.web\\HelloWorld.web.csproj",
+        "projectUniqueName": "C:\\Users\\shivangi\\source\\dotnetLearning\\HelloWorld\\HelloWorld.web\\HelloWorld.web.csproj",
         "projectName": "HelloWorld.web",
-        "projectPath": "C:\\Users\\shivangi\\source\\repos\\HelloWorld\\HelloWorld.web\\HelloWorld.web.csproj",
+        "projectPath": "C:\\Users\\shivangi\\source\\dotnetLearning\\HelloWorld\\HelloWorld.web\\HelloWorld.web.csproj",
         "packagesPath": "C:\\Users\\shivangi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shivangi\\source\\repos\\HelloWorld\\HelloWorld.web\\obj\\",
+        "outputPath": "C:\\Users\\shivangi\\source\\dotnetLearning\\HelloWorld\\HelloWorld.web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shivangi\\AppData\\Roaming\\NuGet\\NuGet.Config",
