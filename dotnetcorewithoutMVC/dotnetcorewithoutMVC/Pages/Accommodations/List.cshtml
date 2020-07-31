@@ -1,0 +1,17 @@
+﻿@page
+@model dotnetcorewithoutMVC.Pages.Accommodations.ListModel
+@{
+}
+
+<h1>Accommodation List</h1>
+
+<table class="table">
+    @foreach (var accommodation in Model.Accommodations)
+    {
+    <tr>
+        <td>@accommodation.Name</td>
+        <td>@accommodation.Location</td>
+        <td>@accommodation.AccommodationType</td>
+    </tr>
+    }
+</table>

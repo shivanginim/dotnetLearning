@@ -1,0 +1,9 @@
+C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC.Core\bin\Debug\netcoreapp3.1\dotnetcorewithoutMVC.Core.deps.json
+C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC.Core\bin\Debug\netcoreapp3.1\dotnetcorewithoutMVC.Core.dll
+C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC.Core\bin\Debug\netcoreapp3.1\dotnetcorewithoutMVC.Core.pdb
+C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC.Core\obj\Debug\netcoreapp3.1\dotnetcorewithoutMVC.Core.csprojAssemblyReference.cache
+C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC.Core\obj\Debug\netcoreapp3.1\dotnetcorewithoutMVC.Core.AssemblyInfoInputs.cache
+C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC.Core\obj\Debug\netcoreapp3.1\dotnetcorewithoutMVC.Core.AssemblyInfo.cs
+C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC.Core\obj\Debug\netcoreapp3.1\dotnetcorewithoutMVC.Core.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC.Core\obj\Debug\netcoreapp3.1\dotnetcorewithoutMVC.Core.dll
+C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC.Core\obj\Debug\netcoreapp3.1\dotnetcorewithoutMVC.Core.pdb
