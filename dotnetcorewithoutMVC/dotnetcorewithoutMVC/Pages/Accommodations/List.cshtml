@@ -5,6 +5,20 @@
 
 <h1>Accommodation List</h1>
 
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" 
+                   asp-for="SearchTerm" />
+            <span class="input-group-btn">
+                <button class="btn btn-primary">
+                    Search
+                </button>
+            </span>
+        </div>
+    </div>
+</form>
+
 <table class="table">
     @foreach (var accommodation in Model.Accommodations)
     {
@@ -12,6 +26,13 @@
         <td>@accommodation.Name</td>
         <td>@accommodation.Location</td>
         <td>@accommodation.AccommodationType</td>
+        <td>
+            <a class="btn btn-lg"
+               asp-page="./Detail" 
+               asp-route-accommodationId="@accommodation.ID">
+                View
+            </a>
+        </td>
     </tr>
     }
 </table>

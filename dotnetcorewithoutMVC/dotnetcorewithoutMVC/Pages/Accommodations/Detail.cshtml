@@ -1,0 +1,23 @@
+﻿@page "{accommodationId:int}"
+
+@model dotnetcorewithoutMVC.Pages.Accommodations.DetailModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detail</title>
+</head>
+<body>
+    <h2>@Model.Accommodation.Name</h2>
+    <h2>ID: @Model.Accommodation.ID</h2>
+    <p> Location: @Model.Accommodation.Location</p>
+    <p> Accommodation Type: @Model.Accommodation.AccommodationType</p>
+
+    <a asp-page="./List" class="btn btn-primary">All Accommodation</a>
+</body>
+</html>

@@ -18,6 +18,9 @@ namespace dotnetcorewithoutMVC.Pages.Accommodations
         public string Message { get; set; }
         public IEnumerable<Accommodation> Accommodations { get; set; }
 
+        [BindProperty(SupportsGet = true)]
+        public string SearchTerm { get; set; }
+
         public ListModel(IConfiguration config,
                             IAccommodationData accommodationData)
         {
@@ -26,7 +29,7 @@ namespace dotnetcorewithoutMVC.Pages.Accommodations
         }
         public void OnGet()
         {
-            Accommodations = accommodationData.GetAll();
+            Accommodations = accommodationData.GetAccommodationByName(SearchTerm);
         }
     }
 }
