@@ -8,7 +8,8 @@ namespace dotnetcorewithoutMVC.Data
 {
     public interface IAccommodationData
     {
-        IEnumerable<Accommodation> GetAll();
+        IEnumerable<Accommodation> GetAccommodationByName(string name);
+        Accommodation GetById(int id);
     }
 
     public class InMemoryAccommodationData : IAccommodationData
@@ -25,9 +26,15 @@ namespace dotnetcorewithoutMVC.Data
                 new Accommodation {ID = 5, Name = "Accommodation 5", Location="Auckland", AccommodationType=AccommodationType.Premium }
             };
         }
-        public IEnumerable<Accommodation> GetAll()
+
+        public Accommodation GetById(int id)
+        {
+            return accommodations.SingleOrDefault(a => a.ID == id);
+        }
+        public IEnumerable<Accommodation> GetAccommodationByName(string name = null)
         {
             return from a in accommodations
+                   where string.IsNullOrEmpty(name) || a.Name.StartsWith(name)
                    orderby a.Name
                    select a;
         }

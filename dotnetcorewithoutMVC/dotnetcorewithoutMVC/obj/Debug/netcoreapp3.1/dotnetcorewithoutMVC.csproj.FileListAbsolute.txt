@@ -113,3 +113,5 @@ C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC\bin\Deb
 C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC\bin\Debug\netcoreapp3.1\dotnetcorewithoutMVC.Data.pdb
 C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC\bin\Debug\netcoreapp3.1\dotnetcorewithoutMVC.Core.pdb
 C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC\obj\Debug\netcoreapp3.1\Razor\Pages\Accommodations\List.cshtml.g.cs
+C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC\obj\Debug\netcoreapp3.1\Razor\Pages\Accommodations\Detail.cshtml.g.cs
+C:\xampp\htdocs\dotnetLearning\dotnetcorewithoutMVC\dotnetcorewithoutMVC\obj\Debug\netcoreapp3.1\Razor\Pages\Accommodations\NotFound.cshtml.g.cs
